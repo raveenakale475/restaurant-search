@@ -47,7 +47,7 @@ const searchDishesByName = async (req, res) => {
 
     res.json({
       restaurants: results,
-      meta: {
+      summary: {
         count: results.length,
         filters: {
           dishName: name,
