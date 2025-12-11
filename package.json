@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.js",
-    "seed": "node seed/seedData.js"
+    "seed": "node seed/seedData.js",
+    "postdeploy": "node seed/seedData.js"
   },
   "keywords": ["restaurant", "api", "nodejs", "mysql"],
   "author": "Your Name",
